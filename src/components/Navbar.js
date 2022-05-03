@@ -94,7 +94,7 @@ const Navbar = () => {
 					<li className="w-[160px] py-2 h-[60] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
 						<a
 							className="flex justify-between items-center w-full text-gray-300"
-							href="/"
+							href="https://www.linkedin.com/in/robbiemevans/"
 						>
 							Linkedin <FaLinkedin size={30} />
 						</a>
@@ -102,27 +102,13 @@ const Navbar = () => {
 					<li className="w-[160px] py-2 h-[60] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
 						<a
 							className="flex justify-between items-center w-full text-gray-300"
-							href="/"
+							href="https://github.com/Robcabobb"
 						>
 							GitHub <FaGithub size={30} />
 						</a>
 					</li>
-					<li className="w-[160px] py-2 h-[60] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c52220]">
-						<a
-							className="flex justify-between items-center w-full text-gray-300"
-							href="/"
-						>
-							Email <HiOutlineMail size={30} />
-						</a>
-					</li>
-					<li className="w-[160px] py-2 h-[60] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f89]">
-						<a
-							className="flex justify-between items-center w-full text-gray-300"
-							href="/"
-						>
-							Resume <BsFillPersonLinesFill size={30} />
-						</a>
-					</li>
+					
+				
 				</ul>
 			</div>
 		</div>
