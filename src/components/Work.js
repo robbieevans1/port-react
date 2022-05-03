@@ -16,7 +16,9 @@ const Work = () => {
 					</p>
 				</div>
 
+        {/* Container for Items */}
 				<div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          
           {/* item 1 */}
         	<div style={{backgroundImage: `url(${PizzaHunt})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 					
@@ -41,8 +43,8 @@ const Work = () => {
 					
           	{/* Hover */}
 						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wider">
-                HTML, CSS and JavaScript App
+							<span className="text-2xl font-bold text-white tracking-wider ">
+                React App
               </span>
 							<div className="pt-8 text-center">
 								<a href="/">
