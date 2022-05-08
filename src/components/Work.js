@@ -22,7 +22,7 @@ const Work = () => {
 
 				{/* Container for Items */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-					{/* item 5 */}
+					{/* item 1 */}
 					<div
 						style={{ backgroundImage: `url(${ShopShop})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -47,7 +47,7 @@ const Work = () => {
 						</div>
 					</div>
 
-					{/* item 6 */}
+					{/* item 2 */}
 					<div
 						style={{ backgroundImage: `url(${DeepThoughts})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -72,7 +72,7 @@ const Work = () => {
 						</div>
 					</div>
 
-					{/* item 6 */}
+					{/* item 3 */}
 					<div
 						style={{ backgroundImage: `url(${BookSearch})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -97,7 +97,7 @@ const Work = () => {
 						</div>
 					</div>
 
-					{/* item 1 */}
+					{/* item 4 */}
 					<div
 						style={{ backgroundImage: `url(${PizzaHunt})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -122,7 +122,7 @@ const Work = () => {
 						</div>
 					</div>
 
-					{/* item 2 */}
+					{/* item 5 */}
 					<div
 						style={{ backgroundImage: `url(${Feast})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -147,7 +147,7 @@ const Work = () => {
 						</div>
 					</div>
 
-					{/* item 3 */}
+					{/* item 6 */}
 					<div
 						style={{ backgroundImage: `url(${WeatherDashboard})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -172,30 +172,6 @@ const Work = () => {
 						</div>
 					</div>
 
-					{/* item 4 */}
-					<div
-						style={{ backgroundImage: `url(${TaskmasterPro})` }}
-						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-					>
-						{/* Hover */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wider">
-								HTML, CSS and JavaScript App
-							</span>
-							<div className="pt-8 text-center">
-								<a href="https://github.com/Robcabobb/taskmaster-pro">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-										Deployment
-									</button>
-								</a>
-								<a href="https://robcabobb.github.io/taskmaster-pro/">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-										Repo
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
