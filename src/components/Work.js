@@ -1,10 +1,11 @@
 import React from "react";
 import Feast from "../assets/work-imgs/feast.png";
 import PizzaHunt from "../assets/work-imgs/pizzaHunt.png";
-import WeatherDashboard from '../assets/work-imgs/weatherDashboard.png'
-import TaskmasterPro from '../assets/work-imgs/taskmasterPro.png'
-import ShopShop from '../assets/work-imgs/shopShop.png'
-import BookSearch from '../assets/work-imgs/bookSearch.png'
+import WeatherDashboard from "../assets/work-imgs/weatherDashboard.png";
+import TaskmasterPro from "../assets/work-imgs/taskmasterPro.png";
+import ShopShop from "../assets/work-imgs/shopShop.png";
+import BookSearch from "../assets/work-imgs/bookSearch.png";
+import DeepThoughts from '../assets/work-imgs/deepThoughts.png'
 
 const Work = () => {
 	return (
@@ -19,123 +20,182 @@ const Work = () => {
 					</p>
 				</div>
 
-        {/* Container for Items */}
-				<div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          
-          {/* item 1 */}
-        	<div style={{backgroundImage: `url(${PizzaHunt})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-					
-          	{/* Hover */}
+				{/* Container for Items */}
+				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+					{/* item 5 */}
+					<div
+						style={{ backgroundImage: `url(${ShopShop})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* Hover */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-                HTML, CSS and JavaScript App
-              </span>
-							<div className="pt-8 text-center">
-								<a href="https://blooming-castle-80641.herokuapp.com/">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Deployment</button>
-								</a>
-								<a href="https://github.com/Robcabobb/pizza-hunt">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Repo</button>
-								</a>
-							</div>
-						</div>
-					</div>
-
-          {/* item 2 */}
-					<div style={{backgroundImage: `url(${Feast})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-					
-          	{/* Hover */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wider ">
-                React App
-              </span>
-							<div className="pt-8 text-center">
-								<a href="https://robcabobb.github.io/feast/">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Deployment</button>
-								</a>
-								<a href="https://github.com/Robcabobb/feast">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Repo</button>
-								</a>
-							</div>
-						</div>
-					</div>
-
-          {/* item 3 */}
-					<div style={{backgroundImage: `url(${WeatherDashboard})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-					
-          	{/* Hover */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wider">
-                HTML, CSS and JavaScript App
-              </span>
-							<div className="pt-8 text-center">
-								<a href="https://robcabobb.github.io/weather-dashboard-v2/">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Deployment</button>
-								</a>
-								<a href="https://github.com/Robcabobb/weather-dashboard-v2">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Repo</button>
-								</a>
-							</div>
-						</div>
-					</div>
-
-          {/* item 4 */}
-					<div style={{backgroundImage: `url(${TaskmasterPro})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-					
-          	{/* Hover */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wider">
-                HTML, CSS and JavaScript App
-              </span>
-							<div className="pt-8 text-center">
-								<a href="https://github.com/Robcabobb/taskmaster-pro">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Deployment</button>
-								</a>
-								<a href="https://robcabobb.github.io/taskmaster-pro/">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Repo</button>
-								</a>
-							</div>
-						</div>
-					</div>
-
-          {/* item 5 */}
-					<div style={{backgroundImage: `url(${ShopShop})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-					
-          	{/* Hover */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wider">
-                HTML, CSS and JavaScript App
-              </span>
+								MERN Stack
+							</span>
 							<div className="pt-8 text-center">
 								<a href="https://shop-ecommerce-982349.herokuapp.com/">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Deployment</button>
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Deployment
+									</button>
 								</a>
 								<a href="https://github.com/Robcabobb/shop-shop">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Repo</button>
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Repo
+									</button>
 								</a>
 							</div>
 						</div>
 					</div>
 
-          {/* item 6 */}
-					<div style={{backgroundImage: `url(${BookSearch})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-					
-          	{/* Hover */}
+					{/* item 6 */}
+					<div
+						style={{ backgroundImage: `url(${DeepThoughts})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* Hover */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-                HTML, CSS and JavaScript App
-              </span>
+								MERN Stack
+							</span>
 							<div className="pt-8 text-center">
-								<a href="https://book-search-engine-11.herokuapp.com">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Deployment</button>
+								<a href="https://frozen-inlet-71918.herokuapp.com/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Deployment
+									</button>
 								</a>
 								<a href="https://github.com/Robcabobb/Book-Search-Engine">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Repo</button>
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Repo
+									</button>
 								</a>
 							</div>
 						</div>
 					</div>
 
+					{/* item 6 */}
+					<div
+						style={{ backgroundImage: `url(${BookSearch})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* Hover */}
+						<div className="opacity-0 group-hover:opacity-100">
+							<span className="text-2xl font-bold text-white tracking-wider">
+								MERN Stack
+							</span>
+							<div className="pt-8 text-center">
+								<a href="https://book-search-engine-11.herokuapp.com">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Deployment
+									</button>
+								</a>
+								<a href="https://github.com/Robcabobb/Book-Search-Engine">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Repo
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					{/* item 1 */}
+					<div
+						style={{ backgroundImage: `url(${PizzaHunt})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* Hover */}
+						<div className="opacity-0 group-hover:opacity-100">
+							<span className="text-2xl font-bold text-white tracking-wider">
+								Node.js, Express and MongoDB
+							</span>
+							<div className="pt-8 text-center">
+								<a href="https://blooming-castle-80641.herokuapp.com/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Deployment
+									</button>
+								</a>
+								<a href="https://github.com/Robcabobb/pizza-hunt">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Repo
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					{/* item 2 */}
+					<div
+						style={{ backgroundImage: `url(${Feast})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* Hover */}
+						<div className="opacity-0 group-hover:opacity-100">
+							<span className="text-2xl font-bold text-white tracking-wider ">
+								HTML, CSS and Javascript App
+							</span>
+							<div className="pt-8 text-center">
+								<a href="https://robcabobb.github.io/feast/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Deployment
+									</button>
+								</a>
+								<a href="https://github.com/Robcabobb/feast">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Repo
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					{/* item 3 */}
+					<div
+						style={{ backgroundImage: `url(${WeatherDashboard})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* Hover */}
+						<div className="opacity-0 group-hover:opacity-100">
+							<span className="text-2xl font-bold text-white tracking-wider">
+								HTML, CSS and JavaScript App
+							</span>
+							<div className="pt-8 text-center">
+								<a href="https://robcabobb.github.io/weather-dashboard-v2/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Deployment
+									</button>
+								</a>
+								<a href="https://github.com/Robcabobb/weather-dashboard-v2">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Repo
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					{/* item 4 */}
+					<div
+						style={{ backgroundImage: `url(${TaskmasterPro})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* Hover */}
+						<div className="opacity-0 group-hover:opacity-100">
+							<span className="text-2xl font-bold text-white tracking-wider">
+								HTML, CSS and JavaScript App
+							</span>
+							<div className="pt-8 text-center">
+								<a href="https://github.com/Robcabobb/taskmaster-pro">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Deployment
+									</button>
+								</a>
+								<a href="https://robcabobb.github.io/taskmaster-pro/">
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Repo
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
