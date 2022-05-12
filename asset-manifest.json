@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cbf90702.css",
-    "main.js": "/react-portfolio/static/js/main.f51a9659.js",
-    "static/media/shopShop.png": "/react-portfolio/static/media/shopShop.8b7302aa3d61219ae7c4.png",
-    "static/media/bookSearch.png": "/react-portfolio/static/media/bookSearch.68b7378e0a4d7cafba11.png",
-    "static/media/pizzaHunt.png": "/react-portfolio/static/media/pizzaHunt.24fcda757a226eb52878.png",
-    "static/media/food-wallet.png": "/react-portfolio/static/media/food-wallet.1d4a93ebfe1cdbe8482e.png",
-    "static/media/deepThoughts.png": "/react-portfolio/static/media/deepThoughts.d9f5e9dd69c3d6276050.png",
-    "static/media/feast.png": "/react-portfolio/static/media/feast.5c8e74ad1c08b4ce4a53.png",
-    "static/media/react.png": "/react-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/aws.png": "/react-portfolio/static/media/aws.95bdee6b9922c9b94fd5.png",
-    "static/media/node.png": "/react-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/mongo.png": "/react-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
-    "static/media/github.png": "/react-portfolio/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/html.png": "/react-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/tailwind.png": "/react-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/css.png": "/react-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/javascript.png": "/react-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.cbf90702.css.map": "/react-portfolio/static/css/main.cbf90702.css.map",
-    "main.f51a9659.js.map": "/react-portfolio/static/js/main.f51a9659.js.map"
+    "main.css": "/port-react/static/css/main.cbf90702.css",
+    "main.js": "/port-react/static/js/main.248519a9.js",
+    "static/media/shopShop.png": "/port-react/static/media/shopShop.8b7302aa3d61219ae7c4.png",
+    "static/media/bookSearch.png": "/port-react/static/media/bookSearch.68b7378e0a4d7cafba11.png",
+    "static/media/pizzaHunt.png": "/port-react/static/media/pizzaHunt.24fcda757a226eb52878.png",
+    "static/media/food-wallet.png": "/port-react/static/media/food-wallet.1d4a93ebfe1cdbe8482e.png",
+    "static/media/deepThoughts.png": "/port-react/static/media/deepThoughts.d9f5e9dd69c3d6276050.png",
+    "static/media/feast.png": "/port-react/static/media/feast.5c8e74ad1c08b4ce4a53.png",
+    "static/media/react.png": "/port-react/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/aws.png": "/port-react/static/media/aws.95bdee6b9922c9b94fd5.png",
+    "static/media/node.png": "/port-react/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/port-react/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/port-react/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/port-react/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/port-react/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/port-react/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/port-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/port-react/index.html",
+    "main.cbf90702.css.map": "/port-react/static/css/main.cbf90702.css.map",
+    "main.248519a9.js.map": "/port-react/static/js/main.248519a9.js.map"
   },
   "entrypoints": [
     "static/css/main.cbf90702.css",
-    "static/js/main.f51a9659.js"
+    "static/js/main.248519a9.js"
   ]
 }
